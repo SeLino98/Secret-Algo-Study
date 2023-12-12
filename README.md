@@ -19,6 +19,12 @@
 <br>
 
 **12월 3째주 : 해쉬**
+https://www.acmicpc.net/problem/22252 정보상인호석
+https://www.acmicpc.net/problem/14425 문자열집합
+https://www.acmicpc.net/problem/1327 소트게임
+https://www.acmicpc.net/problem/1764 듣보잡
+https://www.acmicpc.net/problem/7785 회사에 있는 사람
+https://www.acmicpc.net/problem/17219 비밀번호찾기
 
 **12월 4째주 : 자료구조**
 

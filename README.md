@@ -14,14 +14,8 @@
 
 **[주차]_ [문제이름]_[본인이름]**
 
-**ex. 7월 4주차_스택(10828)_정수진**
+**ex. 12월 1주차_스택(10828)_김인호**
 <br>
- 
-**7월 4째주 : 자료구조(스택, 큐, 덱, 문자열)**
-
-[스택(10828)](https://www.acmicpc.net/problem/10828)(실버4) / [큐2(18528)](https://www.acmicpc.net/problem/18258)(실버4) / [덱(10866)](https://www.acmicpc.net/problem/10866)(실버4) / [풍선터뜨리기(2346)](https://www.acmicpc.net/problem/2346)(실버4)
-
-++ 보너스 [후위표기식(1918)](https://www.acmicpc.net/problem/1918)(골드2)
 
 **12월 3째주 : 해쉬**
 

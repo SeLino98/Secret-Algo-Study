@@ -12,6 +12,25 @@
 
 ## PR시 제출 이름 형식
 
+<br> 
+1 https://www.acmicpc.net/problem/2669 직사각형 네개의 합집합의 면적 구하기 
+2 https://www.acmicpc.net/problem/1244 스위치 켜고 끄기 
+3 https://www.acmicpc.net/problem/2628 종이자르기 
+4 https://www.acmicpc.net/problem/2559 수열 
+5 https://www.acmicpc.net/problem/2578 빙고
+6 https://www.acmicpc.net/problem/2477 참외밭
+7 https://www.acmicpc.net/problem/2527 직사각형
+8 https://www.acmicpc.net/problem/10157 자리배정
+9 https://www.acmicpc.net/problem/10158 개미
+10 https://www.acmicpc.net/problem/10163 색종이 
+11 https://www.acmicpc.net/problem/13300 방 배정 
+12 https://www.acmicpc.net/problem/14696 딱지놀이 
+13 https://www.acmicpc.net/problem/2309 일곱 난쟁이
+13 https://www.acmicpc.net/problem/2605 줄 세우기 
+14 https://www.acmicpc.net/problem/2563 색종이 
+15 https://www.acmicpc.net/problem/2564 경비원 
+16 https://www.acmicpc.net/problem/2491 수열
+
 **[주차]_ [문제이름]_[본인이름]**
 
 **ex. 12월 1주차_스택(10828)_김인호**

@@ -19,7 +19,7 @@ class Node implements Comparable<Node>{
     }
 }
 
-public class Main {
+public class LeastCost {
     static int cityCount, busCount;
     static ArrayList<ArrayList<Node>> simulationList;
     static boolean[] isVisited;
@@ -51,6 +51,16 @@ public class Main {
     }
 
     static void BFS(int startPoint, int endPoint) {
+        /*우선순위 큐를 쓸 경우 
+        초기 cost배열 값의 세팅을 전부 다 큰 값으로 설정을 해준다.
+        시작하는 지점의 좌표의 값은 cost 0으로 한다.
+        어레이 리스트의 경우에는 인접리스트 형식으로 ARrayList를 두 번 감싸서 저장한 다음
+        이동하게 하면 된다. 
+        큐에 시작 지점의 값과 cost값을 넣어준다. 
+        인접리스트의.get.의 모든 값들을 꺼내서 cost와 visited을 갱신하고
+        조건에 만족할 때 cost 다음 값과 다음 q의 번호를 담는다. 
+        마지막에 원하는 도착 지점의 값을 출력한다. 
+        */
         PriorityQueue<Node> q = new PriorityQueue<>();
         Arrays.fill(costArray, Integer.MAX_VALUE);
         costArray[startPoint] = 0;
@@ -70,26 +80,3 @@ public class Main {
         }
     }
 }
-//        q.add(new Node(startPoint,endPoint,0));
-//        while(q.isEmpty()){
-//            //cost를 기준으로 뽑는다.
-//            Node load = q.poll();
-//            isVisited[load.start] = true;
-//            if(load.end == endPoint){//도착지점에 도착하면 종료한다.
-//                costArray[endPoint] = load.cost;
-//                break;
-//            }
-//            if (!isVisited[load.end]){
-//                if (costArray[load.end]< load.cost){
-//                    q.add()//큐로 넣는데, 어레이에 저장된 start가 end인 애들을 담는다.
-//
-//                }
-//            }
-//            //cost가 최소가 되면 갱신하고 그 노드를 큐에 넣는다.
-
-//        for (int i = 0; i < simulationList.size(); i++) {
-//            //node를 다 집어 넣고
-//            if (simulationList.get(i).start==startPoint){
-//                q.add(simulationList.get(i));
-//            }
-//        }

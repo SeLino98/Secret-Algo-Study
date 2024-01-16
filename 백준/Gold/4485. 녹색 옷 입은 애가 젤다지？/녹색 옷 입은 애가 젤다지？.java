@@ -14,7 +14,7 @@ class ZeldaNode implements Comparable<ZeldaNode>{
     }
     @Override
     public int compareTo(ZeldaNode o) {
-        return this.cost-o.cost;
+        return Integer.compare(this.cost, o.cost);
     }
 }
 public class Main {
@@ -48,9 +48,10 @@ public class Main {
             sb.append("\n");
             count++;
         }
-        bw.write(sb.toString());
-        bw.flush();
-        bw.close();
+        System.out.println(sb);
+//        bw.write(sb.toString());
+//        bw.flush();
+//        bw.close();
     }
     static void Dijkstra(){
         PriorityQueue<ZeldaNode> q = new PriorityQueue<>();

@@ -4,11 +4,14 @@ import java.io.InputStreamReader;
 public class Main {
     static long[] costList ;
     static boolean[] isPrime;
+
     public static void main(String[] args) throws IOException {
         //999983
         //123456789
         //10 123257223
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder sb = new StringBuilder();
+
         int N = Integer.parseInt(br.readLine());
         costList = new long[N+1];
         isPrime = new boolean[N+1];
@@ -28,13 +31,7 @@ public class Main {
             answer *= costList[i];
             answer%=(long)987654321;
         }
-        System.out.println(answer);
-        //저장배열에서 나눠보기
-        //1 2 3 4 5 6 7 8 9 10
-        //1 2   2   2   2   2
-        //1 2 3 2   3     3
-        //1 2 3 2 5 6 7 8 9 10
-        //나눈 값저장
-        //방문 체크,
+        sb.append(answer);
+        System.out.println(sb.toString());
     }
 }

@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
+        StringBuilder sb = new StringBuilder();
         int n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
         int [] list = new int[n];
@@ -24,9 +25,9 @@ public class Main {
         }
 
         for (int i = 0; i < list.length; i++) {
-            System.out.print(list[i]+" ");
+            sb.append(list[i]).append(" ");
         }
-
-
+        System.out.print(sb);
+        br.close();
     }
 }

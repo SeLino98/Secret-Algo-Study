@@ -1,40 +1,39 @@
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 public class Main {
-
-    static int N;
-    static int[][] schedule;
-    static int result;
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-        N = Integer.parseInt(br.readLine()); // N까지만 일 함
-        schedule = new int[N][2];
-        for(int i=0; i<N; i++) {
-            StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-            schedule[i][0] = Integer.parseInt(st.nextToken()); // 상담 하는데 걸리는 일 수
-            schedule[i][1] = Integer.parseInt(st.nextToken()); // 돈
+        int days = Integer.parseInt(br.readLine());
+        int[][] schedule = new int[days][2];
+        int[] dp = new int[days];
+        StringTokenizer st ;
+        for (int i = 0; i < days; i++) {
+            //0일부터 받는다. 즉 출력할 땐 days-1로 출력한다.
+            st = new StringTokenizer(br.readLine());
+            schedule[i][0] = Integer.parseInt(st.nextToken());//d
+            schedule[i][1] = Integer.parseInt(st.nextToken());//p
         }
-
-        result = 0;
-        // 0일 부터 시작함
-        dfs(0, 0);
-        System.out.println(result);
-    }
-    static void dfs(int idx, int pay){
-
-
-        if (idx>=N){
-            result = Math.max(result,pay);
-            return;
+        for (int i = 0; i < days; i++) {
+            if (i + schedule[i][0] <= days) { // 7일을 넘어가지 않았다면
+                if (i >0){
+                    int value = 0 ;
+                    for (int j = 0; j < i; j++) {
+                        value = Math.max(value,dp[j]);
+                    }
+                    int sum = value+schedule[i][1];//전에 값들 중 최대 값과 현재 위치에서 pay 값을 더한다.
+                    dp[i + schedule[i][0] - 1] = Math.max(dp[i + schedule[i][0] - 1], sum);
+                }else{
+                    dp[i + schedule[i][0] - 1] = Math.max(dp[i + schedule[i][0] - 1], schedule[i][1]);
+                }
+            }
         }
-        if (idx+schedule[idx][0]<=N){//상담을 계속할 수 있는 경우
-            dfs(idx+schedule[idx][0],pay+schedule[idx][1]);
-        }else{//상담을 계속할 수 없는 경우 시간이 오바되는 경우
-            dfs(idx+schedule[idx][0],pay);
+        int answer = 0;
+        for (int i = 0; i < days; i++) {
+            answer = Math.max(answer,dp[i]);
         }
-        dfs(idx+1,pay);
+        System.out.print(answer);
     }
 }

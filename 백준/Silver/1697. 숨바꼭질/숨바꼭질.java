@@ -6,66 +6,53 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class Main {
-    static class Position{
-        int curPos = 0;
-        int time = 0;
-        public Position(int curPos, int time) {
-            this.curPos = curPos;
-            this.time = time;
+    static final int MAX_POSITION = 100_001; 
+    static boolean[] isVisited = new boolean[MAX_POSITION];
+    static class Position {
+        int curPos;
+        int time;
+        public Position(int currentPosition, int timeTaken) {
+            this.curPos = currentPosition;
+            this.time = timeTaken;
         }
     }
-    final static int maxPos = 100_001;
     public static void main(String[] args) throws IOException {
-        BufferedReader br =new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int startPos = Integer.parseInt(st.nextToken());
-        int endPos = Integer.parseInt(st.nextToken());
-        isVisited = new boolean[maxPos];
-        int answer = -1;
-        if (startPos>endPos){
-            answer = startPos-endPos;
-        } else if (startPos == endPos) {
-            answer = 0;
-        } else{
-            answer = BFS(startPos,endPos);
-        }
+        int startPosition = Integer.parseInt(st.nextToken());
+        int endPosition = Integer.parseInt(st.nextToken());
+        int answer = BFS(startPosition, endPosition);
         System.out.println(answer);
     }
-    static boolean[] isVisited;
-    static int BFS(int startPos,int endPos){
-        int answer = 0;
-        Queue<Position> q = new ArrayDeque<>();
-        q.add(new Position(startPos,0));
-        while(!q.isEmpty()){
-            Position nowPosition = q.poll();
-            if (nowPosition.curPos==endPos) {
-                answer = nowPosition.time;
-                break;
+    static int BFS(int startPosition, int endPosition) {
+        if (startPosition > endPosition) { //크면 걍 빼서 답으로 출력! 1씩 빼니까~
+            return startPosition - endPosition; 
+        } else if (startPosition == endPosition) { // 같으면 큐로 넣을 필요도 없다! 
+            return 0; 
+        }
+        Queue<Position> queue = new ArrayDeque<>();
+        queue.offer(new Position(startPosition, 0));
+        isVisited[startPosition] = true;
+        while (!queue.isEmpty()) {
+            Position nowPosition = queue.poll();
+            if (nowPosition.curPos == endPosition) {
+                return nowPosition.time; 
             }
-            isVisited[nowPosition.curPos] = true;
-            if (checkRange(nowPosition.curPos+1)){
-                if (!isVisited[nowPosition.curPos+1]){
-                    q.add(new Position(nowPosition.curPos+1,nowPosition.time+1));
-                }
-            }
-            if (checkRange(nowPosition.curPos-1)) {
-                if (!isVisited[nowPosition.curPos-1]){
-                    q.add(new Position(nowPosition.curPos-1,nowPosition.time+1));
-                }
-            }
-            if (checkRange(nowPosition.curPos*2)) {
-                if (!isVisited[nowPosition.curPos * 2]) {
-                    q.add(new Position(nowPosition.curPos * 2, nowPosition.time + 1));
+            int[] nextPositions = new int[]{//3가지의 경우를 하나의 배열로 넣고 for문으로 돌면서 각 경우에 대해 q를 넣는다 
+                    nowPosition.curPos - 1,
+                    nowPosition.curPos + 1,
+                    nowPosition.curPos * 2
+            };
+            for (int nextPos : nextPositions) {
+                if (isWithinRange(nextPos) && !isVisited[nextPos]) { //각 배열마다 배열의 범위를 체크를 해준다 .
+                    isVisited[nextPos] = true;  //해당 범위 안에 있는 녀석이면 넣어준다
+                    queue.add(new Position(nextPos, nowPosition.time + 1));
                 }
             }
         }
-        return answer;
+        return -1; //값이 없는 경우
     }
-    static boolean checkRange(int pos){
-        if (pos>=0&&pos<maxPos){
-            return true;
-        }
-        return false;
+    static boolean isWithinRange(int position) {
+        return position >= 0 && position < MAX_POSITION;
     }
-
 }

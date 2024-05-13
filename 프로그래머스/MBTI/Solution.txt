@@ -1,0 +1,105 @@
+import java.util.*;
+import java.io.*;
+class Solution {
+    static int[][] map = new int[4][2];
+    public String solution(String[] survey, int[] choices) {
+        
+        String answer = "";
+        // char[] answerCharList = new char[survey.length];
+        StringBuilder sb = new StringBuilder();
+        //배열 순회한다. 
+        for(int i = 0; i <survey.length; i++){
+            //하나의 tmp 값을 가져온다. 
+            char[] tmpStr = survey[i].toCharArray();
+            int score = choices[i];
+            char fragment = '0';
+            //tmp의 값이 cho의 값의 어느 값에 해당 하는지 본다.
+            score = Math.abs(choices[i]-4);
+            if(choices[i]<=3&&choices[i]>=1){
+                fragment = tmpStr[0];
+            }else if(choices[i]==4){
+                Arrays.sort(tmpStr);
+                fragment = tmpStr[0];
+            }else if(choices[i]>=5&&choices[i]<=7){
+                fragment = tmpStr[1];
+            }
+            findNumberMap(fragment, score);
+        }
+        // answer = answerCharList.toString//Arrays.toString();
+        for(int i = 0; i<4; i++){
+            int first = map[i][0];
+            int second = map[i][1];
+            if(first>=second){
+                sb.append(getStrInMap(i,0));
+            }else if(first<second){
+                sb.append(getStrInMap(i,1));
+            }
+        }
+        answer = sb.toString();
+        return answer;
+    }
+    static char getStrInMap(int i,int j){
+        switch(i){
+            case 0:
+                if(j==0) return 'R';
+                if(j==1) return 'T';
+                break;
+            case 1:
+                if(j==0) return 'C';
+                if(j==1) return 'F';
+                break;
+            case 2:
+                
+                if(j==0) return 'J';
+                if(j==1) return 'M';
+                break;
+            case 3:
+            
+                if(j==0) return 'A';
+                if(j==1) return 'N';
+                break;
+        }
+        return '-';
+    }
+    
+    
+    static void findNumberMap(char value,int score){
+        int i = 0;
+        int j = 0;
+        switch(value){
+            case 'R':
+                i = 0;
+                j = 0;
+                break;
+            case 'T':
+                i = 0;
+                j = 1;
+                break;
+            case 'C':
+                i = 1;
+                j = 0;
+                break;
+            case 'F':
+                i = 1;
+                j = 1;
+                break;
+            case 'J':
+                i = 2;
+                j = 0;
+                break;
+            case 'M':
+                i = 2;
+                j = 1;
+                break;
+            case 'A':
+                i = 3;
+                j = 0;
+                break;
+            case 'N':
+                i = 3;
+                j = 1;
+                break;
+        }
+        map[i][j]+=score;
+    }
+}

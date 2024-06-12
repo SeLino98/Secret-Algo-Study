@@ -10,7 +10,7 @@
 3. 매주 1회 날잡고 모여서 프로그래머스에서 실전처럼 풀이 후 서로 리뷰하기.
 4. 벌금제도는 없지만, 본인 손해!!
 
-<br>
+---
 
 ## 스터디 진행 방식
 
@@ -23,22 +23,19 @@
 6. 주에 한 번(예상 금요일)에 각자의 브랜치에 작업된 것들을 Master에 병합합니다.
 7. 화이팅 취뽀!
 
-## PR시 제출 이름 형식
+---
 
-<br> 
-** [#월 #주차]_ [문제이름]_[본인이름] **
+### PR시 제출 이름 형식
 
 ** ex. 12월 1주차*스택(10828)*김인호 **
 
-<br>
-
 **6월 2째주 : 해쉬**
 
-https://www.acmicpc.net/problem/1327 소트게임
-
-https://www.acmicpc.net/problem/1764 듣보잡
-
-https://www.acmicpc.net/problem/17219 비밀번호찾기
+|       | **문제명**                                                                    |
+|:-----:|:--------------------------------------------------------------------------:|
+| **1** | [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577) |
+| **2** | [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578)      |
+| **3** | [베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)   |
 
 **6월 3째주 : 자료구조**
 
@@ -54,91 +51,63 @@ https://www.acmicpc.net/problem/17219 비밀번호찾기
 
 **8월 1째주 : 최소스패닝트리**
 
-<br>
-$$ 문제 박스
+---
 
-1 https://www.acmicpc.net/problem/2669 직사각형 네개의 합집합의 면적 구하기
-2 https://www.acmicpc.net/problem/1244 스위치 켜고 끄기
-3 https://www.acmicpc.net/problem/2628 종이자르기
-4 https://www.acmicpc.net/problem/2559 수열
-5 https://www.acmicpc.net/problem/2578 빙고
-6 https://www.acmicpc.net/problem/2477 참외밭
-7 https://www.acmicpc.net/problem/2527 직사각형
-8 https://www.acmicpc.net/problem/10157 자리배정
-9 https://www.acmicpc.net/problem/10158 개미
-10 https://www.acmicpc.net/problem/10163 색종이
-11 https://www.acmicpc.net/problem/13300 방 배정
-12 https://www.acmicpc.net/problem/14696 딱지놀이
-13 https://www.acmicpc.net/problem/2309 일곱 난쟁이
-13 https://www.acmicpc.net/problem/2605 줄 세우기
-14 https://www.acmicpc.net/problem/2563 색종이
-15 https://www.acmicpc.net/problem/2564 경비원
-16 https://www.acmicpc.net/problem/2491 수열
+## 문제박스
 
-1. https://www.acmicpc.net/problem/14889 스타트와 링크
-2. https://www.acmicpc.net/problem/14501 퇴사
-3. https://www.acmicpc.net/problem/14502 연구소
-4. https://www.acmicpc.net/problem/15686 치킨배달
-5. https://www.acmicpc.net/problem/16234 인구이동
-6. https://www.acmicpc.net/problem/14888 연산자끼워넣기
-7. https://www.acmicpc.net/problem/17070 파이프 옮기기1
-8. https://www.acmicpc.net/problem/17135 캐슬디펜스
-9. https://www.acmicpc.net/problem/15683 감시
-10. https://www.acmicpc.net/problem/17471 게리맨더링
-11. https://www.acmicpc.net/problem/2667 단지번호붙이기
-12. https://www.acmicpc.net/problem/2468 안전 영역
-13. https://www.acmicpc.net/problem/2636 치즈
-14. https://www.acmicpc.net/problem/2573 빙산
-15. https://www.acmicpc.net/problem/2589 보물섬
+|        | **문제명**                                                      |
+|:------:|:------------------------------------------------------------:|
+| **1**  | [직사각형 네개의 합집합의 면적 구하기](https://www.acmicpc.net/problem/2669) |
+| **2**  | [스위치 켜고 끄기](https://www.acmicpc.net/problem/1244)            |
+| **3**  | [종이자르기](https://www.acmicpc.net/problem/2628)                |
+| **4**  | [수열](https://www.acmicpc.net/problem/2559)                   |
+| **5**  | [빙고](https://www.acmicpc.net/problem/2578)                   |
+| **6**  | [참외밭](https://www.acmicpc.net/problem/2477)                  |
+| **7**  | [직사각형](https://www.acmicpc.net/problem/2527)                 |
+| **8**  | [자리배정](https://www.acmicpc.net/problem/10157)                |
+| **9**  | [개미](https://www.acmicpc.net/problem/10158)                  |
+| **10** | [색종이](https://www.acmicpc.net/problem/10163)                 |
+| **11** | [방 배정](https://www.acmicpc.net/problem/13300)                |
+| **12** | [딱지놀이](https://www.acmicpc.net/problem/14696)                |
+| **13** | [일곱 난쟁이](https://www.acmicpc.net/problem/2309)               |
+| **14** | [줄 세우기](https://www.acmicpc.net/problem/2605)                |
+| **15** | [색종이](https://www.acmicpc.net/problem/2563)                  |
+| **16** | [경비원](https://www.acmicpc.net/problem/2564)                  |
+| **17** | [수열](https://www.acmicpc.net/problem/2491)                   |
+| **18** | [스타트와 링크](https://www.acmicpc.net/problem/14889)             |
+| **19** | [퇴사](https://www.acmicpc.net/problem/14501)                  |
+| **20** | [연구소](https://www.acmicpc.net/problem/14502)                 |
+| **21** | [치킨배달](https://www.acmicpc.net/problem/15686)                |
+| **22** | [인구이동](https://www.acmicpc.net/problem/16234)                |
+| **23** | [연산자끼워넣기](https://www.acmicpc.net/problem/14888)             |
+| **24** | [파이프 옮기기1](https://www.acmicpc.net/problem/17070)            |
+| **25** | [캐슬디펜스](https://www.acmicpc.net/problem/17135)               |
+| **26** | [감시](https://www.acmicpc.net/problem/15683)                  |
+| **27** | [게리맨더링](https://www.acmicpc.net/problem/17471)               |
+| **28** | [단지 번호 붙이기](https://www.acmicpc.net/problem/2667)            |
+| **29** | [안전 영역](https://www.acmicpc.net/problem/2468)                |
+| **30** | [치즈](https://www.acmicpc.net/problem/2636)                   |
+| **31** | [빙산](https://www.acmicpc.net/problem/2573)                   |
+| **32** | [보물섬](https://www.acmicpc.net/problem/2589)                  |
 
-<br>
+---
 
 ## Reference
 
-DO IT! 알고리즘 핵심이론: https://www.youtube.com/playlist?list=PLFgS-xIWwNVX-zm4m6suWC9d7Ua9z7fuT
+- [DO IT! 알고리즘 핵심이론](https://www.youtube.com/playlist?list=PLFgS-xIWwNVX-zm4m6suWC9d7Ua9z7fuT)
 
-알고리즘 모음 https://github.com/tony9402/baekjoon
+- [알고리즘 모음](https://github.com/tony9402/baekjoon)
 
-알고리즘 이론 https://github.com/tony9402/baekjoon/blob/main/link_for_study.md
+- [알고리즘 이론](https://github.com/tony9402/baekjoon/blob/main/link_for_study.md)
 
-바킹독 유튜브 https://www.youtube.com/watch?v=LcOIobH7ues&list=PLtqbFd2VIQv4O6D6l9HcD732hdrnYb6CY
+- [바킹독 유튜브](https://www.youtube.com/watch?v=LcOIobH7ues&list=PLtqbFd2VIQv4O6D6l9HcD732hdrnYb6CY)
+
+---
 
 ## 알고리즘 주제 - 출처
 
-백준 https://www.acmicpc.net/workbook/view/6152
-https://www.acmicpc.net/problem/tags
+### 백준
 
-<br>
+- https://www.acmicpc.net/workbook/view/6152
 
-## 코드 제출하는법
-
-**💬 코드 제출하는법**
-
-1. Fork 버튼 클릭한다.
-   ![image](https://github.com/Int-TRUE/Java-CodingTest/assets/87708291/630d7129-0114-42a1-a969-318c66ea3fc3)
-   ![image](https://github.com/Int-TRUE/Java-CodingTest/assets/87708291/424e933d-7616-4e5d-b066-114a08564e55)
-
-2. 자신의 repository에서 Sync Fork를 클릭한다.(문제 업데이트됨)
-   ![image](https://github.com/Int-TRUE/Java-CodingTest/assets/87708291/a05cafa6-1b25-4259-aba6-6d4bec919b36)
-
-3. 문제 풀이 후 코드를 업로드 한다.
-
-4. Pull Request를 할 때 Upstream에 자기 이름 branch를 선택한 후 pr을 보낸다.
-   ![image](https://github.com/Int-TRUE/Java-CodingTest/assets/87708291/592ebfac-7bfc-4be7-b5ac-2cc6120291d7)
-   ![image](https://github.com/Int-TRUE/Java-CodingTest/assets/87708291/6a40994e-6fc8-4e53-b43d-413e1a69506b)
-
-<br>
-
-**💬 코드 리뷰 달기**
-
-1. PR 제출 후 리뷰어를 등록한다.(배정된 본인의 조 사람들 등록)
-   ![image](https://github.com/Int-TRUE/Java-CodingTest/assets/87708291/401eb294-9a77-48ae-9f97-070ae90d233f)
-
-2. 코드에 들어가서 리뷰를 단다. (➕버튼을 누르고 아래로 쭉 내리면 여러 코드 블록 선택 가능)
-
-그리고 Start a review를 클릭한다.
-![image](https://github.com/Int-TRUE/Java-CodingTest/assets/87708291/a43b9a85-c54b-4acf-8fa3-5eee4c8e92e7)
-
-3. 리뷰가 끝나면 오른쪽 상단 Review changes를 누른다.
-
-![image](https://github.com/Int-TRUE/Java-CodingTest/assets/87708291/a524418d-5654-417e-a39d-4cf73a14b56d)
+- https://www.acmicpc.net/problem/tags

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/10430. 나머지" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10807. 개수 세기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10810. 공 넣기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10818. 최소， 최대" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10926. ？？！" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10950. A＋B － 3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11022. A＋B － 8" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11718. 그대로 출력하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1259. 팰린드롬수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1264. 모음의 개수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15552. 빠른 A＋B" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18108. 1998년생인 내가 태국에서는 2541년생？！" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2309. 일곱 난쟁이" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2475. 검증수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/25305. 커트라인" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2557. Hello World" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2562. 최댓값" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2587. 대표값2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2588. 곱셈" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2675. 문자열 반복" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2742. 기찍 N" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/27433. 팩토리얼 2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2752. 세수정렬" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5086. 배수와 약수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8370. Plane" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/9455. 박스" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -37,7 +37,14 @@
 | **2** | [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578)      |
 | **3** | [베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)   |
 
-**6월 3째주 : 자료구조**
+**6월 3째주 : 스택/큐**
+
+|       | **문제명**                                                                    |
+|:-----:|:--------------------------------------------------------------------------:|
+| **1** | [기능 개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) |
+| **2** | [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587)      |
+| **3** | [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909)   |
+
 
 **6월 4째주 : 완전탐색**
 

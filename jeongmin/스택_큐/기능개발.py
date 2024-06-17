@@ -7,6 +7,7 @@ from collections import deque
 
 def solution(progresses, speeds):
     progresses = deque(progresses)
+    speeds = deque(speeds)
     answer = []
     while progresses:
         count = 0
@@ -19,6 +20,7 @@ def solution(progresses, speeds):
         if progresses[0] == 100:
             while progresses and progresses[0] == 100:
                 progresses.popleft()
+                speeds.popleft()
                 count += 1
                 if len(progresses) == 0 or progresses[0] != 100:
                     answer.append(count)

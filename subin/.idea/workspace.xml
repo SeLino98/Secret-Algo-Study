@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0615139-89e8-4f33-a748-3d5cfa98ef02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/programmers/FunctionDevelopment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programmers/Process.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -49,6 +49,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Costume.executor": "Run",
     "Application.FunctionDevelopment.executor": "Run",
+    "Application.Process.executor": "Debug",
     "Application.phonebook.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -82,11 +83,23 @@
       <updated>1718373528366</updated>
       <workItem from="1718373529754" duration="3504000" />
       <workItem from="1718703592245" duration="889000" />
-      <workItem from="1718721952993" duration="1990000" />
+      <workItem from="1718721952993" duration="2171000" />
+      <workItem from="1718781589115" duration="2342000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/programmers/Process.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -13,7 +13,3 @@ def solution(priorities, location):
             if process == find_process:
                 return count
         pri_que.append(process)
-
-
-print(solution([2, 1, 3, 2], 2))
-print(solution([1, 1, 9, 1, 1, 1], 0))

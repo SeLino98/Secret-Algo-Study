@@ -46,7 +46,13 @@
 | **3** | [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909)   |
 
 
-**6월 4째주 : 완전탐색**
+**6월 4째주 : 스택/큐_해쉬**
+|       | **문제명**                                                                    |
+|:-----:|:--------------------------------------------------------------------------:|
+| **1** | [다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583) |
+| **2** | [주식가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584)      |
+| **3** | [디스크 컨트롤러](https://school.programmers.co.kr/learn/courses/30/lessons/42627)   |
+
 
 **7월 1째주 : 비트마스킹**
 

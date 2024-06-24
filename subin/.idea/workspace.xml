@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0615139-89e8-4f33-a748-3d5cfa98ef02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/Secret-Algo-Study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inho/SWEA/D2/D2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inho/SWEA/D3/D3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inho/SWEA/D4/D4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inho/백준/Bronze II/Bronze II.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inho/백준/Bronze/Bronze.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inho/백준/Gold/Gold.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inho/백준/Silver/Silver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inho/프로그래머스/1/1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inho/프로그래머스/2/2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inho/프로그래머스/3/3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/075f300ce50c272239d1eb435d902dceba2e2991" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/3391776c64e6b76655130b780356d930b3d51e46" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6afcea4822a782a7446ffbe61feb32f98409118a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b46d0042b2fba1de3cf0825f75ea7c6f8a319125" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd441dd2ccd5e119e5e437acf6a320ef7ae38696" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/7/075f300ce50c272239d1eb435d902dceba2e2991" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/3/3391776c64e6b76655130b780356d930b3d51e46" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/a/6afcea4822a782a7446ffbe61feb32f98409118a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/4/b46d0042b2fba1de3cf0825f75ea7c6f8a319125" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/d/bd441dd2ccd5e119e5e437acf6a320ef7ae38696" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programmers/Costume.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programmers/Phonebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/phonebook/Solution.java" beforeDir="false" />
-    </list>
+    <list default="true" id="b0615139-89e8-4f33-a748-3d5cfa98ef02" name="Changes" comment="Solve: 의상 문제 풀이" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +47,7 @@
     "Application.phonebook.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "subin",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -106,11 +75,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718373528366</updated>
-      <workItem from="1718373529754" duration="3504000" />
+      <workItem from="1718373529754" duration="3934000" />
     </task>
+    <task id="LOCAL-00001" summary="Solve: 의상 문제 풀이">
+      <option name="closed" value="true" />
+      <created>1718382043590</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718382043590</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Solve: 의상 문제 풀이">
+      <option name="closed" value="true" />
+      <created>1718382105753</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718382105753</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Solve: 의상 문제 풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solve: 의상 문제 풀이" />
   </component>
 </project>

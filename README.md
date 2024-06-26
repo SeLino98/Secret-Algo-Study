@@ -8,7 +8,7 @@
 1. 매주 문제 주제를 정하고 스터디 내에서 문제 선정 후 각자 풀고 리뷰로 올려서 코드리뷰 주고받기
 2. 1주 3문제 필수 + (여유가 된다면 공통 문제 외 추가로 일일 학습 진행하고 리뷰로 올려도 됨!)
 3. 매주 1회 날잡고 모여서 프로그래머스에서 실전처럼 풀이 후 서로 리뷰하기.
-4. 벌금제도는 없지만, 본인 손해!!
+4. 벌금제도는 없지만, 본인 손해!
 
 ---
 
@@ -31,28 +31,26 @@
 
 **6월 2째주 : 해쉬**
 
-|       | **문제명**                                                                    |
-|:-----:|:--------------------------------------------------------------------------:|
+|       |                                    **문제명**                                    |
+| :---: | :------------------------------------------------------------------------------: |
 | **1** | [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577) |
-| **2** | [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578)      |
-| **3** | [베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)   |
+| **2** |     [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578)      |
+| **3** |  [베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)   |
 
 **6월 3째주 : 스택/큐**
 
-|       | **문제명**                                                                    |
-|:-----:|:--------------------------------------------------------------------------:|
-| **1** | [기능 개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) |
-| **2** | [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587)      |
-| **3** | [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909)   |
+|       |                                   **문제명**                                   |
+| :---: | :----------------------------------------------------------------------------: |
+| **1** |  [기능 개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586)  |
+| **2** |  [프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587)   |
+| **3** | [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909) |
 
-
-**6월 4째주 : 스택/큐_해쉬**
-|       | **문제명**                                                                    |
+**6월 4째주 : 스택/큐\_해쉬**
+| | **문제명** |
 |:-----:|:--------------------------------------------------------------------------:|
 | **1** | [다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583) |
-| **2** | [주식가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584)      |
-| **3** | [디스크 컨트롤러](https://school.programmers.co.kr/learn/courses/30/lessons/42627)   |
-
+| **2** | [주식가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584) |
+| **3** | [디스크 컨트롤러](https://school.programmers.co.kr/learn/courses/30/lessons/42627) |
 
 **7월 1째주 : 비트마스킹**
 
@@ -68,40 +66,40 @@
 
 ## 문제박스
 
-|        | **문제명**                                                      |
-|:------:|:------------------------------------------------------------:|
+|        |                                  **문제명**                                  |
+| :----: | :--------------------------------------------------------------------------: |
 | **1**  | [직사각형 네개의 합집합의 면적 구하기](https://www.acmicpc.net/problem/2669) |
-| **2**  | [스위치 켜고 끄기](https://www.acmicpc.net/problem/1244)            |
-| **3**  | [종이자르기](https://www.acmicpc.net/problem/2628)                |
-| **4**  | [수열](https://www.acmicpc.net/problem/2559)                   |
-| **5**  | [빙고](https://www.acmicpc.net/problem/2578)                   |
-| **6**  | [참외밭](https://www.acmicpc.net/problem/2477)                  |
-| **7**  | [직사각형](https://www.acmicpc.net/problem/2527)                 |
-| **8**  | [자리배정](https://www.acmicpc.net/problem/10157)                |
-| **9**  | [개미](https://www.acmicpc.net/problem/10158)                  |
-| **10** | [색종이](https://www.acmicpc.net/problem/10163)                 |
-| **11** | [방 배정](https://www.acmicpc.net/problem/13300)                |
-| **12** | [딱지놀이](https://www.acmicpc.net/problem/14696)                |
-| **13** | [일곱 난쟁이](https://www.acmicpc.net/problem/2309)               |
-| **14** | [줄 세우기](https://www.acmicpc.net/problem/2605)                |
-| **15** | [색종이](https://www.acmicpc.net/problem/2563)                  |
-| **16** | [경비원](https://www.acmicpc.net/problem/2564)                  |
-| **17** | [수열](https://www.acmicpc.net/problem/2491)                   |
-| **18** | [스타트와 링크](https://www.acmicpc.net/problem/14889)             |
-| **19** | [퇴사](https://www.acmicpc.net/problem/14501)                  |
-| **20** | [연구소](https://www.acmicpc.net/problem/14502)                 |
-| **21** | [치킨배달](https://www.acmicpc.net/problem/15686)                |
-| **22** | [인구이동](https://www.acmicpc.net/problem/16234)                |
-| **23** | [연산자끼워넣기](https://www.acmicpc.net/problem/14888)             |
-| **24** | [파이프 옮기기1](https://www.acmicpc.net/problem/17070)            |
-| **25** | [캐슬디펜스](https://www.acmicpc.net/problem/17135)               |
-| **26** | [감시](https://www.acmicpc.net/problem/15683)                  |
-| **27** | [게리맨더링](https://www.acmicpc.net/problem/17471)               |
-| **28** | [단지 번호 붙이기](https://www.acmicpc.net/problem/2667)            |
-| **29** | [안전 영역](https://www.acmicpc.net/problem/2468)                |
-| **30** | [치즈](https://www.acmicpc.net/problem/2636)                   |
-| **31** | [빙산](https://www.acmicpc.net/problem/2573)                   |
-| **32** | [보물섬](https://www.acmicpc.net/problem/2589)                  |
+| **2**  |           [스위치 켜고 끄기](https://www.acmicpc.net/problem/1244)           |
+| **3**  |              [종이자르기](https://www.acmicpc.net/problem/2628)              |
+| **4**  |                 [수열](https://www.acmicpc.net/problem/2559)                 |
+| **5**  |                 [빙고](https://www.acmicpc.net/problem/2578)                 |
+| **6**  |                [참외밭](https://www.acmicpc.net/problem/2477)                |
+| **7**  |               [직사각형](https://www.acmicpc.net/problem/2527)               |
+| **8**  |              [자리배정](https://www.acmicpc.net/problem/10157)               |
+| **9**  |                [개미](https://www.acmicpc.net/problem/10158)                 |
+| **10** |               [색종이](https://www.acmicpc.net/problem/10163)                |
+| **11** |               [방 배정](https://www.acmicpc.net/problem/13300)               |
+| **12** |              [딱지놀이](https://www.acmicpc.net/problem/14696)               |
+| **13** |             [일곱 난쟁이](https://www.acmicpc.net/problem/2309)              |
+| **14** |              [줄 세우기](https://www.acmicpc.net/problem/2605)               |
+| **15** |                [색종이](https://www.acmicpc.net/problem/2563)                |
+| **16** |                [경비원](https://www.acmicpc.net/problem/2564)                |
+| **17** |                 [수열](https://www.acmicpc.net/problem/2491)                 |
+| **18** |            [스타트와 링크](https://www.acmicpc.net/problem/14889)            |
+| **19** |                [퇴사](https://www.acmicpc.net/problem/14501)                 |
+| **20** |               [연구소](https://www.acmicpc.net/problem/14502)                |
+| **21** |              [치킨배달](https://www.acmicpc.net/problem/15686)               |
+| **22** |              [인구이동](https://www.acmicpc.net/problem/16234)               |
+| **23** |           [연산자끼워넣기](https://www.acmicpc.net/problem/14888)            |
+| **24** |           [파이프 옮기기1](https://www.acmicpc.net/problem/17070)            |
+| **25** |             [캐슬디펜스](https://www.acmicpc.net/problem/17135)              |
+| **26** |                [감시](https://www.acmicpc.net/problem/15683)                 |
+| **27** |             [게리맨더링](https://www.acmicpc.net/problem/17471)              |
+| **28** |           [단지 번호 붙이기](https://www.acmicpc.net/problem/2667)           |
+| **29** |              [안전 영역](https://www.acmicpc.net/problem/2468)               |
+| **30** |                 [치즈](https://www.acmicpc.net/problem/2636)                 |
+| **31** |                 [빙산](https://www.acmicpc.net/problem/2573)                 |
+| **32** |                [보물섬](https://www.acmicpc.net/problem/2589)                |
 
 ---
 

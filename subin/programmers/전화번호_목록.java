@@ -1,10 +1,10 @@
-package phonebook;
+package programmers;
 
 import java.util.Arrays;
 
-public class Solution {
+class Phonebook {
     // 전화번호 목록을 입력받아 특정 조건을 확인한 후 true 또는 false를 반환하는 메서드
-    public boolean solution(String[] phone_book) {
+    public static boolean solution(String[] phone_book) {
         Arrays.sort(phone_book);
         int len = phone_book.length;
 
@@ -23,13 +23,6 @@ public class Solution {
 
     // 프로그램 실행을 위한 메인 메서드
     public static void main(String[] args) {
-        Solution sol = new Solution();
-
-        // 테스트를 위한 전화번호 목록
-        String[] phone_book = {"12","123","1235","567","88"};
-
-        // solution 메서드 호출 및 결과 출력
-        boolean result = sol.solution(phone_book);
-        System.out.println("Result: " + result);
+        System.out.println(solution(new String[]{"119", "97674223", "1195524421"}));
     }
 }

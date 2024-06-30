@@ -50,9 +50,14 @@
 |:-----:|:--------------------------------------------------------------------------:|
 | **1** | [다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583) |
 | **2** | [주식가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584) |
-| **3** | [디스크 컨트롤러](https://school.programmers.co.kr/learn/courses/30/lessons/42627) |
+| **3** | [더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626) |
 
-**7월 1째주 : 비트마스킹**
+**7월 1째주 : 스택/큐\_해쉬**
+| | **문제명** |
+|:-----:|:--------------------------------------------------------------------------:|
+| **1** | [디스크 컨트롤러](https://school.programmers.co.kr/learn/courses/30/lessons/42746) |
+| **2** | [가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42747) |
+| **3** | [h-index](https://school.programmers.co.kr/learn/courses/30/lessons/42627) |
 
 **7월 2째주 : 우선순위큐**
 

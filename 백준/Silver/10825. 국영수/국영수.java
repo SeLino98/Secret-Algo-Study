@@ -44,8 +44,8 @@ public class Main{
             pList.add(new Person(name,kor,eng,math));
         }
         Collections.sort(pList);
-        for (int i = 0; i < pList.size(); i++) {
-            sb.append(pList.get(i).name).append("\n");
+        for (Person person : pList) {
+            sb.append(person.name).append("\n");
         }
         System.out.println(sb);
     }

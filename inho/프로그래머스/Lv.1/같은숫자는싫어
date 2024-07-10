@@ -1,0 +1,30 @@
+```java
+import java.util.*;
+
+public class Solution {
+    public int[] solution(int []arr) {
+        
+        //스택
+        //넣은 큐의 꼭대기 값을 확인
+        //같은 값이면 패스
+        //다른 값이면 삽입.
+        Stack<Integer> q = new Stack<>();
+        q.add(arr[0]);
+        for(int i = 1; i<arr.length; i++){
+            if(!q.isEmpty()){
+                int tmp = q.peek();
+                if(tmp != arr[i]){
+                    q.push(arr[i]);    
+                }
+            }
+        }
+        int[] answer = new int[q.size()];
+        int pos = q.size();
+        while(!q.isEmpty()){
+            int token = q.pop();
+            answer[--pos] = token;
+        }
+        return answer;
+    }
+}
+```

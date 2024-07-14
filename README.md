@@ -59,9 +59,19 @@
 | **2** | [가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42747) |
 | **3** | [h-index](https://school.programmers.co.kr/learn/courses/30/lessons/42627) |
 
-**7월 2째주 : 우선순위큐**
+**7월 2째주 : 완탐**
+| | **문제명** |
+|:-----:|:--------------------------------------------------------------------------:|
+| **1** | [소수찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42746) |
+| **2** | [카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42747) |
+| **3** | [피로도](https://school.programmers.co.kr/learn/courses/30/lessons/42627) |
 
-**7월 3째주 : 트리**
+**7월 3째주 : 완탐/그리디**
+| | **문제명** |
+|:-----:|:--------------------------------------------------------------------------:|
+| **1** | [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971) |
+| **2** | [모음사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512) |
+| **3** | [조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860) |
 
 **7월 4째주 : 분할 정복**
 

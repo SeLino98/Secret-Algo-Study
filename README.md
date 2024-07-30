@@ -73,9 +73,14 @@
 | **2** | [모음사전](https://school.programmers.co.kr/learn/courses/30/lessons/84512) |
 | **3** | [조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860) |
 
-**7월 4째주 : 분할 정복**
+**7월 5째주 / 8월 1째주: DP**
+| | **문제명** |
+|:-----:|:--------------------------------------------------------------------------:|
+| **1** | [N으로 표현](https://school.programmers.co.kr/learn/courses/30/lessons/42895) |
+| **2** | [정수삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105) |
+| **3** | [등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898) |
 
-**8월 1째주 : 최소스패닝트리**
+**8월 2째주 : 최소스패닝트리**
 
 ---
 

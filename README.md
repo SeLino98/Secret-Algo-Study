@@ -80,7 +80,12 @@
 | **2** | [정수삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105) |
 | **3** | [등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898) |
 
-**8월 2째주 : 최소스패닝트리**
+**8월 2째주 : DP/DFS/BFS**
+| | **문제명** |
+|:-----:|:--------------------------------------------------------------------------:|
+| **1** | [사칙연산](https://school.programmers.co.kr/learn/courses/30/lessons/1843) |
+| **2** | [도둑질](https://school.programmers.co.kr/learn/courses/30/lessons/42897) |
+| **3** | [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) |
 
 ---
 

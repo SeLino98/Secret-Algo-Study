@@ -1,0 +1,26 @@
+class Solution {
+    public int solution(int[][] triangle) {
+        int n = triangle.length;
+        //기록할 함수 
+        int[][] memo = new int[n][];
+        for(int i=0; i<n;i++){
+            memo[i] = new int[i+1];
+        }
+        //맨 첫 부분 입력하고
+        memo[0][0] = triangle[0][0];
+        //각각 왼쪽 줄기에서 타고온 값과 오른쪽 줄기에서 내려온 값 비교해서 최대값으로 갱신
+        for(int i=0; i<n-1; i++) {
+            for(int j=0; j<triangle[i].length;j++){
+                memo[i+1][j] = Math.max(memo[i+1][j], memo[i][j] + triangle[i+1][j]);
+                memo[i+1][j+1] = Math.max(memo[i+1][j+1],memo[i][j] + triangle[i+1][j+1]);     
+          }
+        }
+        
+        int maxValue = 0;
+        //맨 밑 중에서 최대값 찾기
+        for (int i = 0; i < memo[n - 1].length; i++) {
+            maxValue = Math.max(maxValue, memo[n - 1][i]);
+        }
+        return maxValue;
+    }
+}

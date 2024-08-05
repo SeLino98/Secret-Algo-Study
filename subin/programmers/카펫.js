@@ -1,3 +1,4 @@
+// 약수 구하는 함수
 function findGcd(num) {
   const arr = []
   for (let i = 1; i <= Math.sqrt(num); i++) {

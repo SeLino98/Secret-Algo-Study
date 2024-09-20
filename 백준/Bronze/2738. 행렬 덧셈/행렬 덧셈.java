@@ -9,17 +9,19 @@ public class Main {
         int rowSize = 2*N;
         int [][]A = new int[N][M];
         StringBuilder sb = new StringBuilder();
-        boolean flag = false;
         for (int i = 0; i < rowSize; i++) {
-            if (i>=N) flag = true;
             st = new StringTokenizer(br.readLine());
             int iTmp = i%N;
             for (int j = 0; j < M; j++) {
                 int tmp = Integer.parseInt(st.nextToken());
                 A[iTmp][j] += tmp;
-                if (flag) sb.append(A[iTmp][j]).append(" ");
             }
-            if (flag) sb.append('\n');
+        }
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < M; j++) {
+                sb.append(A[i][j]).append(" ");
+            }
+            sb.append('\n');
         }
         System.out.print(sb);
     }

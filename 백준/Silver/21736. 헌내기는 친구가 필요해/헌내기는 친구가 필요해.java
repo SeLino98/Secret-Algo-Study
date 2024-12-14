@@ -4,7 +4,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.StringTokenizer;
-
 public class Main {
     static int [] dx = {1,0,-1,0};
     static int [] dy = {0,-1,0,1};
@@ -19,6 +18,9 @@ public class Main {
         colSize = Integer.parseInt(st.nextToken());
         int startPosX = 0 ;//col
         int startPosY = 0 ;//row
+        //br로 받고 tochararray로 끊고
+        //int 맵으로 변환
+        //시작 포인트 기억해두기
         map = new int[rowSize][colSize];
         isVisited = new boolean[rowSize][colSize];
         //맵저장
@@ -45,9 +47,9 @@ public class Main {
         }
         int answer = BFS(startPosX,startPosY);
         if (answer==0){
-            System.out.println("TT");
+            System.out.print("TT");
         }else{
-            System.out.println(answer);
+            System.out.print(answer);
         }
     }
     static int BFS(int startPosX, int startPosY){
@@ -60,8 +62,7 @@ public class Main {
             for (int i = 0; i < 4; i++) {
                 int nx = posXY[1] + dx[i];
                 int ny = posXY[0] + dy[i];
-                if (nx>=0&&ny>=0&&ny<rowSize&&nx<colSize){
-                    if (isVisited[ny][nx]) continue;
+                if (nx>=0&&ny>=0&&ny<rowSize&&nx<colSize&&!isVisited[ny][nx]){
                     isVisited[ny][nx] = true;
                     if (map[ny][nx]==0){//통과
                         q.add(new int[]{ny,nx});
@@ -74,5 +75,9 @@ public class Main {
 
         }
         return answer;
+    }
+
+    static void caseFunction(int i, int j){
+
     }
 }

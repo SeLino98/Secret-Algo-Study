@@ -23,13 +23,18 @@ public class Main {
         int answer = Integer.MAX_VALUE;
         while (rt < listSize &&lt<rt){
             int tmp = list[rt] - list[lt];
-            if (tmp>=findValue){
+            if (findValue == tmp){
+                answer = tmp;
+                break;
+            }
+            if (tmp>findValue){
                 answer = Math.min(answer,tmp);
                 lt++;
             }else{
                 rt++;
             }
             if (lt == rt) rt++;
+
         }
         System.out.print(answer);
     }

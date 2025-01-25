@@ -15,20 +15,14 @@ public class Main {
                 list[i] = Integer.parseInt(st.nextToken());
             }
             //계산
-            int maxAnswer = Integer.MIN_VALUE;
-            for (int i = 0; i < arrSize; i++) {
-                int tmpValue = 0;
-                for (int j = i; j < arrSize; j++) {
-                    if (j==i){
-                        tmpValue = list[i];
-                    }else{
-                        tmpValue += list[j];
-                    }
-                    maxAnswer = Math.max(tmpValue,maxAnswer);
-                }
+            int curMaxValue = list[0];
+            int answerMaxValue = list[0];
+            for (int i = 1; i < arrSize; i++) {
+                curMaxValue = Math.max(list[i],curMaxValue+list[i]);
+                answerMaxValue = Math.max(curMaxValue,answerMaxValue);
             }
             //출력
-            sb.append(maxAnswer).append('\n');
+            sb.append(answerMaxValue).append('\n');
         }
         System.out.print(sb);
     }

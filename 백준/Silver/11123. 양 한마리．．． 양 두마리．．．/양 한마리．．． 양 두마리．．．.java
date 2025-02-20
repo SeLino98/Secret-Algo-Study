@@ -2,16 +2,16 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
+    final static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    static int rowSize,colSize;
+    static StringTokenizer st ;
+    static boolean [][]isVisitedMap ;
+    static char [][] map ;
     static int [] dx = {1,0,-1,0};
     static int [] dy = {0,1,0,-1};
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int testCase = Integer.parseInt(br.readLine());
         StringBuilder sb = new StringBuilder();
-        int rowSize,colSize;
-        boolean[][] isVisitedMap;
-        char[][] map;
-        StringTokenizer st ;
         for (int t = 0; t < testCase; t++) {
             st = new StringTokenizer(br.readLine());
             rowSize = Integer.parseInt(st.nextToken());
@@ -28,17 +28,16 @@ public class Main {
             for (int r = 0; r < rowSize; r++) {
                 for (int c = 0; c < colSize; c++) {
                     if (!isVisitedMap[r][c]&&map[r][c] == '#') {
-                        BFS(r,c,isVisitedMap,map,rowSize,colSize);
+                        BFS(r,c);
                         answerCount++;
                     }
                 }
             }
             sb.append(answerCount).append('\n');
         }
-        br.close();
         System.out.print(sb);
     }
-    static void BFS(int posY,int posX,boolean[][]isVisitedMap,char[][]map,int rowSize,int colSize){
+    static void BFS(int posY,int posX){
         Queue<int[]> q = new ArrayDeque<>();
         q.add(new int[]{posY,posX});
         isVisitedMap[posY][posX] = true;

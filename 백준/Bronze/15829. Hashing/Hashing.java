@@ -8,8 +8,10 @@ public class Main {
         int wordSize = Integer.parseInt(br.readLine());
         char [] wordList = br.readLine().toCharArray();
         long answer = 0;
+        long rPower = 1;
         for (int i = 0; i < wordSize; i++) {
-            answer +=((wordList[i]-'a'+1)*Math.pow(MOD_R,i))%MOD_VALUE;
+            answer = ( answer + (wordList[i]-'a'+1)*rPower )%MOD_VALUE;
+            rPower = (rPower*MOD_R)%MOD_VALUE;
         }
         System.out.print(answer);
     }

@@ -22,13 +22,16 @@ public class Main {
             int mid = (rt+lt)/2;
             int tmpBudget = 0;
             for (int i = 0; i < listLocalArea.length; i++) {
-                if (listLocalArea[i]<mid) tmpBudget += listLocalArea[i];
-                else tmpBudget += mid;
+                if (listLocalArea[i]>mid){
+                    tmpBudget += mid;
+                }else{
+                    tmpBudget += listLocalArea[i];
+                }
             }
-            if (tmpBudget>budget){
-                rt = mid-1;
-            }else {
-                lt = mid+1;
+            if (tmpBudget>budget){//가장 가까워질 때까지 반복
+                rt = mid - 1;
+            }else{
+                lt = mid + 1;
             }
             answer = rt;
         }

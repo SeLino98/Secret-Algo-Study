@@ -1,35 +1,23 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 
 public class Main {
-    static int[] list;
+    final static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    static final int[] pack = {5, 3};
+
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(br.readLine());
-        list = new int[N+1];
-        if (N==3){
-            System.out.println(1);
-        }else if(N==4){
-            System.out.println(-1);
-        }else if (N==5){
-            System.out.println(1);
-        }else{
-            list[1] = -1;
-            list[2] = -1;
-            list[3] = 1;
-            list[4] = -1;
-            list[5] = 1;
-            for (int i = 6; i < N+1; i++) {
-                if (list[i-5]!=-1){
-                    list[i] = list[i-5]+1;
-                }else if (list[i-3]!=-1){
-                    list[i] = list[i-3]+1;
-                }else{
-                    list[i] = -1;
-                }
+        int kg = Integer.parseInt(br.readLine());
+        int fiveVal = kg / 5; // 5kg 최대 사용 개수
+        int tmpValue;
+
+        while (fiveVal >= 0) { // 5kg 봉지를 줄여가며 탐색
+            tmpValue = kg - pack[0] * fiveVal;
+            if (tmpValue % 3 == 0) {
+                System.out.println(fiveVal + tmpValue / 3);
+                return;
             }
-            System.out.println(list[N]);
+            fiveVal--; // 5kg 봉지를 하나 줄여가며 확인
         }
+
+        System.out.println(-1); // 정확히 나눌 수 없는 경우
     }
 }
